@@ -1,4 +1,11 @@
-const repeatString = function() {
+const repeatString = function(string, times) {
+    var repeatedWords = "";
+    while (times > 0) {
+        repeatedWords += string;
+        times--;
+    }
+
+    return repeatedWords;
 
 };
 
